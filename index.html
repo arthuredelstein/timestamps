@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html>
+  <head>
   <title>
     Timestamping important databases
   </title>
+  <style>
+    table.timestamp-table td,th {
+      padding: 3px;
+      text-align: left;
+    }
+  </style>
+</head>
   <body>
-    <table>
+    <h1>
+      Wikipedia Time Stamps
+    </h1>
+    <p>
+      Timestamps of selected dumps from <a href="https://dumps.wikimedia.org/backup-index.html">https://dumps.wikimedia.org/backup-index.html</a>
+    </p>
+    <table class="timestamp-table">
       <tr>
+        <th>Name</th>
         <th>File</th>
         <th>SHA-256 Hash</th>
         <th>Timestamp</th>
       </tr>
       <tr>
-        <td></td>
+        <td>English Wikipedia</td>
+        <td>
+          <a href="https://dumps.wikimedia.org/enwiki/20240401/enwiki-20240401-pages-articles-multistream.xml.bz2">
+            enwiki-20240401-pages-articles-multistream.xml.bz2
+          </a>
+        </td>
+        <td>aa8a0711bc59f04c9dba5ee3604bd3b1e2bdf996cd5533cded415e708a8acc7b</td>
+        <td><a href="./aa8a0711bc59f04c9dba5ee3604bd3b1e2bdf996cd5533cded415e708a8acc7b.ots">OTS file</a></td>
+      </tr>
+      <tr>
+        <td>Turkish Wikipedia</td>
+        <td>
+          <a href="https://dumps.wikimedia.org/trwiki/20240401/trwiki-20240401-pages-articles-multistream.xml.bz2">
+            trwiki-20240401-pages-articles-multistream.xml.bz2
+          </a>
+        </td>
+        <td>092b4a3e09960812dbffc5c067530f235a71681666ce8bee3a452c0b3ec07b0d</td>
+        <td><a href="./092b4a3e09960812dbffc5c067530f235a71681666ce8bee3a452c0b3ec07b0d.ots">OTS file</a></td>
       </tr>
     </table>
   </body>
